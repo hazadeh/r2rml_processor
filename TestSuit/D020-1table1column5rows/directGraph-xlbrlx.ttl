@@ -1,0 +1,16 @@
+@base <http://example.com/base/>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+_:a <http://example.com/base/Student#Name> "http://example.com/company/Alice";
+    a <http://example.com/base/Student>.
+_:b <http://example.com/base/Student#Name> "Bob";
+    a <http://example.com/base/Student>.
+_:c <http://example.com/base/Student#Name> "Bob/Charles";
+    a <http://example.com/base/Student>.
+_:d <http://example.com/base/Student#Name> "path/../Danny";
+    a <http://example.com/base/Student>.
+_:e <http://example.com/base/Student#Name> "Emily Smith";
+    a <http://example.com/base/Student>.

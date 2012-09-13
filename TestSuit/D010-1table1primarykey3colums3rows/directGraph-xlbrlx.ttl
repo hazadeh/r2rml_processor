@@ -1,0 +1,18 @@
+@base <http://example.com/base/>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.com/base/Country%20Info/Country%20Code=1> <http://example.com/base/Country%20Info#Country%20Code> 1 ;
+                                                          <http://example.com/base/Country%20Info#ISO%203166> "BO";
+                                                          <http://example.com/base/Country%20Info#Name> "Bolivia, Plurinational State of";
+                                                          a <http://example.com/base/Country%20Info>.
+<http://example.com/base/Country%20Info/Country%20Code=2> <http://example.com/base/Country%20Info#Country%20Code> 2 ;
+                                                          <http://example.com/base/Country%20Info#ISO%203166> "IE";
+                                                          <http://example.com/base/Country%20Info#Name> "Ireland";
+                                                          a <http://example.com/base/Country%20Info>.
+<http://example.com/base/Country%20Info/Country%20Code=3> <http://example.com/base/Country%20Info#Country%20Code> 3 ;
+                                                          <http://example.com/base/Country%20Info#ISO%203166> "MF";
+                                                          <http://example.com/base/Country%20Info#Name> "Saint Martin (French part)";
+                                                          a <http://example.com/base/Country%20Info>.

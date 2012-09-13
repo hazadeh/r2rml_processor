@@ -1,0 +1,39 @@
+﻿@base <http://example.com/base/>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<http://example.com/base/Patient2/ID=10> <http://example.com/base/Patient2#BirthDate> "1981-10-10";
+                                         <http://example.com/base/Patient2#EntranceDate> "2009/10/10 12:12:22 ب.ظ"^^xsd:date;
+                                         <http://example.com/base/Patient2#FirstName> "Monica";
+                                         <http://example.com/base/Patient2#Height> 1.65E0;
+                                         <http://example.com/base/Patient2#ID> 10 ;
+                                         <http://example.com/base/Patient2#LastName> "Geller";
+                                         <http://example.com/base/Patient2#PaidInAdvance> "False"^^xsd:boolean;
+                                         <http://example.com/base/Patient2#Photo> "System.Byte[]";
+                                         <http://example.com/base/Patient2#Sex> "female";
+                                         <http://example.com/base/Patient2#Weight> 8.025E1;
+                                         a <http://example.com/base/Patient2>.
+<http://example.com/base/Patient2/ID=11> <http://example.com/base/Patient2#BirthDate> "1982-11-12";
+                                         <http://example.com/base/Patient2#EntranceDate> "2008/11/12 09:45:44 ق.ظ"^^xsd:date;
+                                         <http://example.com/base/Patient2#FirstName> "Rachel";
+                                         <http://example.com/base/Patient2#Height> 1.7E0;
+                                         <http://example.com/base/Patient2#ID> 11 ;
+                                         <http://example.com/base/Patient2#LastName> "Green";
+                                         <http://example.com/base/Patient2#PaidInAdvance> "True"^^xsd:boolean;
+                                         <http://example.com/base/Patient2#Photo> "System.Byte[]";
+                                         <http://example.com/base/Patient2#Sex> "female";
+                                         <http://example.com/base/Patient2#Weight> 7.022E1;
+                                         a <http://example.com/base/Patient2>.
+<http://example.com/base/Patient2/ID=12> <http://example.com/base/Patient2#BirthDate> "1978-04-06";
+                                         <http://example.com/base/Patient2#EntranceDate> "2007/03/12 02:13:14 ق.ظ"^^xsd:date;
+                                         <http://example.com/base/Patient2#FirstName> "Chandler";
+                                         <http://example.com/base/Patient2#Height> 1.76E0;
+                                         <http://example.com/base/Patient2#ID> 12 ;
+                                         <http://example.com/base/Patient2#LastName> "Bing";
+                                         <http://example.com/base/Patient2#PaidInAdvance> "True"^^xsd:boolean;
+                                         <http://example.com/base/Patient2#Photo> "System.Byte[]";
+                                         <http://example.com/base/Patient2#Sex> "male";
+                                         <http://example.com/base/Patient2#Weight> 9.031E1;
+                                         a <http://example.com/base/Patient2>.
